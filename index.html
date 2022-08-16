@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/config.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/rotative.css">
+    <title>IEDESPAM - Portal da Aquicultura</title>
+</head>
+<body>
+
+    <header>
+
+                    <!-- Switch Button Light/Night Mode -->
+                    <div id="switch-mode">
+                        <input type="checkbox" id="switch">
+                        <label for="switch" tabindex="6"><img class="img-s" src="./img/moon.png" alt="Ativa o modo dark"></label>        
+                    </div>
+               
+
+        <!-- Logotipo text/img -->
+        <div class="header-logo" tabindex="1">
+            <span></span>
+        </div>
+
+
+
+        <!-- Navigation Menu -->
+        <nav class="header-menu">
+            <ul>
+                <li tabindex="2"><a href="#" class="header-menu__link">Inicio</a></li>
+                <li tabindex="3"><a href="#sobre" class="header-menu__link">Destaques</a></li>
+                <li tabindex="4"><a href="#highlights" class="header-menu__link">Sobre</a></li>
+                <li tabindex="5"><a href="#" class="header-menu__link">Galeria</a></li>
+            </ul>
+        </nav>
+       
+   
+    </header>
+
+    <main>
+
+             <div class="slider">
+                    
+                <div class="slides">
+        
+                    <!--- radio buttons -->
+        
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+        
+                    <!-- slider images-->
+                    <div class="slide first">
+                        <img src="./img/banner1.jpg" alt="Imagem 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/banner2.jpg" alt="Imagem 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/banner3.jpg" alt="Imagem 3">
+                    </div>
+                    <div class="slide">
+                        <img src="./img/banner4.jpg" alt="Imagem 4">
+                    </div>
+        
+                    <!-- Navigation auto-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                    
+                </div>
+        
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+        
+            </div>
+
+        </section>
+    
+
+        <!-- Second section - About Text/Img -->
+        <section class="content-2"  id="sobre">
+            <div class="abount-title">
+                <h2 tabindex="10">Conteúdo em Destaque</h2><br>
+            </div>
+            <div class="content-2__about">                
+                <div class="about__text">
+ 
+                <div class="about__img">
+                    <img src="./img/user_bg.png" alt="" tabindex="15">
+                    <span>Noticias IESPAM</span>
+
+
+        </section>
+
+        <!-- Third section - Hightlights/text and img -->
+        <section class="content-3" id="highlights">
+            <h2 tabindex="16">Talvez exista uma galeria aqui, quem sabe?</h2>
+            <div class="content-3__highlights">
+
+
+        </section>
+
+
+    </main>
+    
+    
+    
+    <footer>
+
+        <!-- Footer Elements - Copyright Site / Developer Credit -->
+        <div class="footer__copyright">
+            <span tabindex="32">2022 - todos os direitos reservados</span><br>
+            <div class="button-credit">
+                <span tabindex="33">Developed by - <strong><a href="https://www.instagram.com/santos.neto_/"  tabindex="34">Neto Santos</a></strong></span>
+            </div>
+        </div>
+
+        <!-- Social Media Elements - Instagram/Twitter/WhatsApp/Facebook -->
+        <div class="footer__socialmedia">
+            <ul>
+                <li><a href="#"><img tabindex="35" class="footer__socialmedia__link" src="./img/instagram.png" alt="Instagram icon"></a></li>
+                <li><a href="#"><img tabindex="36" class="footer__socialmedia__link" src="./img/twitter.png" alt="Twitter icon"></a></li>
+                <li><a href="#"><img tabindex="37" class="footer__socialmedia__link" src="./img/whatsapp.png" alt="WhatsApp icon"></a></li>
+                <li><a href="#"><img tabindex="38" class="footer__socialmedia__link" src="./img/facebook.png" alt="Facebook icon"></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+    <script src="./js/app.js" defer></script>
+    <script src="./js/rotative.js" defer></script>
+</body>
+</html>
